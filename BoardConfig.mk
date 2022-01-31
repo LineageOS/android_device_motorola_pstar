@@ -11,6 +11,9 @@ DEVICE_PATH := device/motorola/pstar
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := pstar
 
+# Assertions
+TARGET_BOARD_INFO_FILE := device/motorola/pstar/board-info.txt
+
 # Display
 TARGET_SCREEN_DENSITY := 400
 
