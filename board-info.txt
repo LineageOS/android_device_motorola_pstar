@@ -1,0 +1,1 @@
+require board=sm8250|pstar|pstar_retail
