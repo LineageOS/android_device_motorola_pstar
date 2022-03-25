@@ -1,0 +1,4 @@
+bq2597x_mmi.ko
+mmi_parallel_charger.ko
+mmi_parallel_charger_qc3p.ko
+stmicro_mmi.ko
