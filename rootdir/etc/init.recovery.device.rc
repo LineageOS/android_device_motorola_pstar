@@ -1,5 +1,0 @@
-on init
-    insmod /lib/modules/stmicro_mmi.ko
-    insmod /lib/modules/bq2597x_mmi.ko
-    insmod /lib/modules/mmi_parallel_charger.ko
-    insmod /lib/modules/mmi_parallel_charger_qc3p.ko
