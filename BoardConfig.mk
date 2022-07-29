@@ -6,13 +6,18 @@
 
 include device/motorola/sm8250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/motorola/nio
+DEVICE_PATH := device/motorola/pstar
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := nio
+TARGET_BOOTLOADER_BOARD_NAME := pstar
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/lineageos_nio_defconfig
+TARGET_KERNEL_CONFIG := vendor/lineageos_pstar_defconfig
+
+# Power
+SOONG_CONFIG_MOTO_KONA_TOUCH_SINGLE_TAP_PATH := /sys/devices/platform/soc/a94000.i2c/i2c-2/2-0049/single_click
+
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/platform/soc/a94000.i2c/i2c-2/2-0049/double_click"
 
 # Inherit from the proprietary version
--include vendor/motorola/nio/BoardConfigVendor.mk
+-include vendor/motorola/pstar/BoardConfigVendor.mk

@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=nio
+export DEVICE=pstar
 export DEVICE_COMMON=sm8250-common
 export VENDOR=motorola
 
