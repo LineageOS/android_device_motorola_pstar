@@ -21,5 +21,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service.st \
+    android.hardware.secure_element@1.2-service.st \
+    nfc_nci.st21nfc.default
+
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/motorola/pstar/pstar-vendor.mk)

@@ -238,5 +238,9 @@ vendor/firmware/st21nfc_fw.bin
 vendor/firmware/stmicro-csot-fts3639-21120227-de141027-pstar.ftb
 vendor/firmware/stmicro-visionox-fts3639-21072312-0009200c-pstar.ftb
 
+# NFC
+vendor/etc/libnfc-hal-st.conf
+vendor/etc/libnfc-nci-st.conf
+
 # Thermal
 vendor/etc/thermal-engine-pstar.conf
