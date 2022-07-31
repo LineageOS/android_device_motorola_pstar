@@ -227,6 +227,10 @@ vendor/etc/camera/vidhance_calibration
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/mot_dw9781c.prog
 
+# Display (Calibration Data)
+vendor/etc/qdcm_calib_data_mipi_mot_cmd_csot_1080p_dsc_667.xml
+vendor/etc/qdcm_calib_data_mipi_mot_cmd_visionox_1080p_dsc_667.xml
+
 # Firmware
 vendor/firmware/aw8695_haptic.bin
 vendor/firmware/aw8695_rtp.bin
