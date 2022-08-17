@@ -19,5 +19,8 @@ SOONG_CONFIG_MOTO_KONA_TOUCH_SINGLE_TAP_PATH := /sys/devices/platform/soc/a94000
 
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/platform/soc/a94000.i2c/i2c-2/2-0049/double_click"
 
+# SEPolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Inherit from the proprietary version
 -include vendor/motorola/pstar/BoardConfigVendor.mk

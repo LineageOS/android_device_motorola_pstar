@@ -1,0 +1,10 @@
+# Power Supply
+genfscon sysfs /devices/platform/soc/soc:mmi_chrg_manager_qc3p/power_supply/mmi_chrg_manager_qc3p u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/soc:mmi_chrg_manager/power_supply/mmi_chrg_manager u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/888000.i2c/i2c-4/4-0065/power_supply/bq25960-standalone u:object_r:vendor_sysfs_battery_supply:s0
+
+# Touchscreen
+genfscon sysfs /devices/platform/soc/a94000.i2c/i2c-2/2-0049 u:object_r:vendor_sysfs_touchpanel:s0
+
+# Vibrator
+genfscon sysfs /devices/platform/soc/884000.i2c/i2c-3/3-005a/leds/vibrator u:object_r:sysfs_vibrator:s0
