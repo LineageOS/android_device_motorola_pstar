@@ -31,5 +31,9 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2-service.st \
     nfc_nci.st21nfc.default
 
+# Recovery
+PRODUCT_PACKAGES += \
+    init.recovery.device.rc
+
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/motorola/pstar/pstar-vendor.mk)

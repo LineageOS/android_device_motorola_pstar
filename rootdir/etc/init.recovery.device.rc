@@ -1,0 +1,10 @@
+on init
+    insmod /lib/modules/sensors_class.ko
+    insmod /lib/modules/mmi_annotate.ko
+    insmod /lib/modules/mmi_info.ko
+    insmod /lib/modules/mmi_relay.ko
+    insmod /lib/modules/touchscreen_mmi.ko
+    insmod /lib/modules/stmicro_mmi.ko
+    insmod /lib/modules/bq2597x_mmi.ko
+    insmod /lib/modules/mmi_parallel_charger.ko
+    insmod /lib/modules/mmi_parallel_charger_qc3p.ko
