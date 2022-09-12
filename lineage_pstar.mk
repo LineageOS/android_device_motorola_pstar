@@ -24,7 +24,7 @@ PRODUCT_MANUFACTURER := motorola
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 # Build info
-BUILD_FINGERPRINT := "motorola/pstar_retcn/pstar:12/S1RN32.55-16-1/cd155e-548707:user/release-keys"
+BUILD_FINGERPRINT := "motorola/pstar_retail/pstar:12/S1RAS32M.41-20-16-5/429588:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=pstar_retail \
-    PRIVATE_BUILD_DESC="pstar_retcn-user 12 S1RN32.55-16-1 cd155e-548707 release-keys"
+    PRIVATE_BUILD_DESC="pstar_retail-user 12 S1RAS32M.41-20-16-5 429588 release-keys"
