@@ -18,11 +18,11 @@ $(call inherit-product, device/motorola/pstar/device.mk)
 PRODUCT_NAME := lineage_pstar
 PRODUCT_DEVICE := pstar
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := XT2125-4
+PRODUCT_MODEL := motorola edge 20 pro
 PRODUCT_MANUFACTURER := motorola
 
 # Build info
 BUILD_FINGERPRINT := "motorola/pstar_retcn/pstar:12/S1RN32.55-16-1/cd155e-548707:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=pstar_retcn \
+    TARGET_PRODUCT=pstar_retail \
     PRIVATE_BUILD_DESC="pstar_retcn-user 12 S1RN32.55-16-1 cd155e-548707 release-keys"
