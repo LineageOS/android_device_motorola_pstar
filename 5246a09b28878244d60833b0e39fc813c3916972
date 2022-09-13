@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a8d3e24_50753990",
+        "filename": "lineage_pstar.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2022-09-13T10:28:45Z",
+      "side": 1,
+      "message": "I\u0027m afraid the commit is wrong. This part is a combination of ${ro.vendor.build.version.incremental}-${ro.system.build.version.incremental} on stock. The \"M\" suffix of \"S1RAS32M\" is not used there as well.",
+      "range": {
+        "startLine": 28,
+        "startChar": 65,
+        "endLine": 28,
+        "endChar": 71
+      },
+      "revId": "5246a09b28878244d60833b0e39fc813c3916972",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
