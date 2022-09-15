@@ -4,17 +4,4 @@
         <transport>hwbinder</transport>
         <fqname>@2.1::IAntiFlicker/default</fqname>
     </hal>
-    <hal format="hidl">
-        <name>vendor.lineage.touch</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IHighTouchPollingRate</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
-            <name>ITouchscreenGesture</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
 </manifest>
