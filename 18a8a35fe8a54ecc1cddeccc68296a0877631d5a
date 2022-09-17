@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c47a2d7c_5a4c8ce5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2022-09-17T04:49:36Z",
+      "side": 1,
+      "message": "need to use fqname syntax to avoid conflict, e.g. https://review.lineageos.org/c/LineageOS/android_device_motorola_nio/+/339217",
+      "revId": "18a8a35fe8a54ecc1cddeccc68296a0877631d5a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
