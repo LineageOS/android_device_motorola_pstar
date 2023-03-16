@@ -165,6 +165,15 @@ vendor/firmware/mot_dw9781c.prog
 vendor/etc/qdcm_calib_data_mipi_mot_cmd_csot_1080p_dsc_667.xml
 vendor/etc/qdcm_calib_data_mipi_mot_cmd_visionox_1080p_dsc_667.xml
 
+# Fingerprint
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-goodixservice
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc
+vendor/lib64/hw/fingerprint.goodix.default.so
+vendor/lib64/libgf_ca.so
+vendor/lib64/libgf_hal.so
+vendor/lib64/libgoodixhwfingerprint.so
+vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@3.0.so
+
 # Firmware
 vendor/firmware/aw8695_haptic.bin
 vendor/firmware/aw8695_rtp.bin
