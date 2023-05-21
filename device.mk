@@ -26,6 +26,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     bluetooth.device.default_name=edge 20 pro
 
+# Camera
+PRODUCT_PACKAGES += \
+    libgui_shim_vendor
+
 # Init
 PRODUCT_PACKAGES += \
     init.device.rc
