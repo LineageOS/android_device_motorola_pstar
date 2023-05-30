@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from pstar S1RAS32.41-20-16-5
+# All unpinned blobs below are extracted from pstar-user 12 S1RAS32.41-20-16-11 2d77a8-3df6d release-keys
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
