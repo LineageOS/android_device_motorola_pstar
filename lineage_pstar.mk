@@ -22,7 +22,7 @@ PRODUCT_MODEL := motorola edge 20 pro
 PRODUCT_MANUFACTURER := motorola
 
 # Build info
-BUILD_FINGERPRINT := "motorola/pstar_retail/pstar:12/S1RAS32M.41-20-16-5/429588:user/release-keys"
+BUILD_FINGERPRINT := "motorola/pstar_retail/pstar:12/S1RAS32.41-20-16-11/2d77a8-3df6d:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=pstar_retail \
-    PRIVATE_BUILD_DESC="pstar_retail-user 12 S1RAS32.41-20-16-5 9601c-429588 release-keys"
+    PRIVATE_BUILD_DESC="pstar_retail-user 12 S1RAS32.41-20-16-11 2d77a8-3df6d release-keys"
