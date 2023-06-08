@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f950d4c_80bc4475",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2023-06-08T03:00:57Z",
+      "side": 1,
+      "message": "value is wrong ig",
+      "revId": "9e95d4a5fa7bb5f4132fb018d58a3ecf771108cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d132a747_c8b5ff65",
+        "filename": "lineage_pstar.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2023-06-08T03:00:57Z",
+      "side": 1,
+      "message": "ro.vendor.build.id",
+      "range": {
+        "startLine": 25,
+        "startChar": 53,
+        "endLine": 25,
+        "endChar": 73
+      },
+      "revId": "9e95d4a5fa7bb5f4132fb018d58a3ecf771108cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fcacb081_b1e4d8d9",
+        "filename": "lineage_pstar.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2023-06-08T03:00:57Z",
+      "side": 1,
+      "message": "${ro.vendor.build.version.incremental}-${ro.system.build.version.incremental}",
+      "range": {
+        "startLine": 25,
+        "startChar": 74,
+        "endLine": 25,
+        "endChar": 79
+      },
+      "revId": "9e95d4a5fa7bb5f4132fb018d58a3ecf771108cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5f0121fd_0dbeaccf",
+        "filename": "lineage_pstar.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2023-06-08T03:00:57Z",
+      "side": 1,
+      "message": "${ro.vendor.build.version.incremental}-${ro.system.build.version.incremental}",
+      "range": {
+        "startLine": 28,
+        "startChar": 66,
+        "endLine": 28,
+        "endChar": 71
+      },
+      "revId": "9e95d4a5fa7bb5f4132fb018d58a3ecf771108cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c08cc9de_97c1efe4",
+        "filename": "lineage_pstar.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2023-06-08T03:00:57Z",
+      "side": 1,
+      "message": "ro.vendor.build.id",
+      "range": {
+        "startLine": 28,
+        "startChar": 45,
+        "endLine": 28,
+        "endChar": 65
+      },
+      "revId": "9e95d4a5fa7bb5f4132fb018d58a3ecf771108cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
