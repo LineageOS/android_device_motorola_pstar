@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "132a6e38_4ff3adb0",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2023-06-08T02:46:32Z",
+      "side": 1,
+      "message": "DEVICE_PATH",
+      "range": {
+        "startLine": 15,
+        "startChar": 26,
+        "endLine": 15,
+        "endChar": 47
+      },
+      "revId": "fc1e98b84072953fd7366f52049e3c802092922d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
