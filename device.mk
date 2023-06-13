@@ -14,7 +14,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResPstar \
-    SystemUIResPstar
+    SystemUIResPstar \
     SettingsProviderResPstar
 
 # Audio
