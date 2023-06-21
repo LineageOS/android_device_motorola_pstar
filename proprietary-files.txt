@@ -16,7 +16,8 @@ vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
-vendor/lib64/hw/camera.qcom.so
+# From pstar_retail-user 12 S1RAS32.41-20-16-5 9601c-429588 release-keys
+vendor/lib64/hw/camera.qcom.so|428a25e9ac5d7cfdcafe84bf9eee846c1e845e5d
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libarcsoft_distortion_correction.so
 vendor/lib64/libarcsoft_dualcam_refocus_image.so
