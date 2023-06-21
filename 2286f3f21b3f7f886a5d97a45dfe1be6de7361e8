@@ -22,6 +22,30 @@
       },
       "revId": "2286f3f21b3f7f886a5d97a45dfe1be6de7361e8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4182214c_6c23eb30",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-21T20:04:49Z",
+      "side": 1,
+      "message": "eh, fair, I think I\u0027ll just append to end of line instead, that keeps sort-blobs working",
+      "parentUuid": "58d685db_6e4e2564",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 72
+      },
+      "revId": "2286f3f21b3f7f886a5d97a45dfe1be6de7361e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
