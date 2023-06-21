@@ -1,4 +1,28 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58d685db_6e4e2564",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2023-06-21T17:18:50Z",
+      "side": 1,
+      "message": "btw that\u0027s not really how you tag blobs, should be moved to a different section below else sort-blobs-list breaks",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 72
+      },
+      "revId": "2286f3f21b3f7f886a5d97a45dfe1be6de7361e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
