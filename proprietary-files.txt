@@ -1,7 +1,6 @@
 # All unpinned blobs below are extracted from pstar-user 12 S1RAS32.41-20-16-11 2d77a8-3df6d release-keys
 
 # ACDB
-vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/acdbdata/Bluetooth_cal.acdb
 vendor/etc/acdbdata/General_cal.acdb
 vendor/etc/acdbdata/Global_cal.acdb
@@ -9,14 +8,15 @@ vendor/etc/acdbdata/Handset_cal.acdb
 vendor/etc/acdbdata/Hdmi_cal.acdb
 vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
+vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Camera
+# From pstar_retail-user 12 S1RAS32.41-20-16-5 9601c-429588 release-keys
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
-# From pstar_retail-user 12 S1RAS32.41-20-16-5 9601c-429588 release-keys
 vendor/lib64/hw/camera.qcom.so|428a25e9ac5d7cfdcafe84bf9eee846c1e845e5d
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libarcsoft_distortion_correction.so
@@ -67,6 +67,27 @@ vendor/lib64/libvidhance_stabilizer.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # Camera-components
+vendor/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov16a1q_eeprom.so
+vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov32b_eeprom.so
+vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_s5khm2_eeprom.so
+vendor/lib64/camera/com.mot.eeprom.mot_ov08a10_eeprom.so
+vendor/lib64/camera/com.mot.eeprom.mot_ov16a10_gt9772.so
+vendor/lib64/camera/com.qti.sensor.mot_ov08a10.so
+vendor/lib64/camera/com.qti.sensor.mot_ov16a10.so
+vendor/lib64/camera/com.qti.sensor.mot_ov16a1q.so
+vendor/lib64/camera/com.qti.sensor.mot_ov32b.so
+vendor/lib64/camera/com.qti.sensor.mot_s5khm2.so
+vendor/lib64/camera/com.qti.sensormodule.mot_pstar_ov08a10.bin
+vendor/lib64/camera/com.qti.sensormodule.mot_pstar_ov16a10.bin
+vendor/lib64/camera/com.qti.sensormodule.mot_pstar_ov16a1q.bin
+vendor/lib64/camera/com.qti.sensormodule.mot_pstar_ov32b.bin
+vendor/lib64/camera/com.qti.sensormodule.mot_pstar_s5khm2.bin
+vendor/lib64/camera/com.qti.tuned.default.bin
+vendor/lib64/camera/com.qti.tuned.mot_pstar_ov08a10.bin
+vendor/lib64/camera/com.qti.tuned.mot_pstar_ov16a10.bin
+vendor/lib64/camera/com.qti.tuned.mot_pstar_ov16a1q.bin
+vendor/lib64/camera/com.qti.tuned.mot_pstar_ov32b.bin
+vendor/lib64/camera/com.qti.tuned.mot_pstar_s5khm2.bin
 vendor/lib64/camera/components/com.arcsoft.node.capturebokeh.so
 vendor/lib64/camera/components/com.arcsoft.node.dc_capture.so
 vendor/lib64/camera/components/com.arcsoft.node.realtimebokeh.so
@@ -91,48 +112,27 @@ vendor/lib64/camera/components/com.qti.node.memcpy.so
 vendor/lib64/camera/components/com.qti.node.remosaic.so
 vendor/lib64/camera/components/com.qti.node.stich.so
 vendor/lib64/camera/components/com.qti.node.swregistration.so
-vendor/lib64/camera/components/com.qtistatic.stats.aec.so
-vendor/lib64/camera/components/com.qtistatic.stats.af.so
-vendor/lib64/camera/components/com.qtistatic.stats.awb.so
-vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
 vendor/lib64/camera/components/com.qti.stats.aec.so
 vendor/lib64/camera/components/com.qti.stats.aecwrapper.so
-vendor/lib64/camera/components/com.qti.stats.afd.so
 vendor/lib64/camera/components/com.qti.stats.af.so
+vendor/lib64/camera/components/com.qti.stats.afd.so
 vendor/lib64/camera/components/com.qti.stats.afwrapper.so
 vendor/lib64/camera/components/com.qti.stats.asd.so
 vendor/lib64/camera/components/com.qti.stats.awb.so
 vendor/lib64/camera/components/com.qti.stats.awbwrapper.so
-vendor/lib64/camera/components/com.qti.stats.hafoverride.so
 vendor/lib64/camera/components/com.qti.stats.haf.so
+vendor/lib64/camera/components/com.qti.stats.hafoverride.so
 vendor/lib64/camera/components/com.qti.stats.pdlib.so
 vendor/lib64/camera/components/com.qti.stats.pdlibsony.so
 vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so
 vendor/lib64/camera/components/com.qti.stats.tracker.so
+vendor/lib64/camera/components/com.qtistatic.stats.aec.so
+vendor/lib64/camera/components/com.qtistatic.stats.af.so
+vendor/lib64/camera/components/com.qtistatic.stats.awb.so
+vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
 vendor/lib64/camera/components/com.vidhance.node.ica.so
 vendor/lib64/camera/components/com.vidhance.node.processing.so
 vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so
-vendor/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov16a1q_eeprom.so
-vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov32b_eeprom.so
-vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_s5khm2_eeprom.so
-vendor/lib64/camera/com.mot.eeprom.mot_ov08a10_eeprom.so
-vendor/lib64/camera/com.mot.eeprom.mot_ov16a10_gt9772.so
-vendor/lib64/camera/com.qti.sensormodule.mot_pstar_ov08a10.bin
-vendor/lib64/camera/com.qti.sensormodule.mot_pstar_ov16a10.bin
-vendor/lib64/camera/com.qti.sensormodule.mot_pstar_ov16a1q.bin
-vendor/lib64/camera/com.qti.sensormodule.mot_pstar_ov32b.bin
-vendor/lib64/camera/com.qti.sensormodule.mot_pstar_s5khm2.bin
-vendor/lib64/camera/com.qti.sensor.mot_ov08a10.so
-vendor/lib64/camera/com.qti.sensor.mot_ov16a10.so
-vendor/lib64/camera/com.qti.sensor.mot_ov16a1q.so
-vendor/lib64/camera/com.qti.sensor.mot_ov32b.so
-vendor/lib64/camera/com.qti.sensor.mot_s5khm2.so
-vendor/lib64/camera/com.qti.tuned.default.bin
-vendor/lib64/camera/com.qti.tuned.mot_pstar_ov08a10.bin
-vendor/lib64/camera/com.qti.tuned.mot_pstar_ov16a10.bin
-vendor/lib64/camera/com.qti.tuned.mot_pstar_ov16a1q.bin
-vendor/lib64/camera/com.qti.tuned.mot_pstar_ov32b.bin
-vendor/lib64/camera/com.qti.tuned.mot_pstar_s5khm2.bin
 vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
 vendor/lib64/com.qti.feature2.frameselect.so
@@ -181,8 +181,8 @@ vendor/firmware/aw8695_rtp.bin
 vendor/firmware/aw882xx_mono.bin
 vendor/firmware/aw882xx_rcv_reg.bin
 vendor/firmware/aw882xx_spk_reg.bin
-vendor/firmware/st21nfc_fw7.bin
 vendor/firmware/st21nfc_fw.bin
+vendor/firmware/st21nfc_fw7.bin
 vendor/firmware/stmicro-csot-fts3639-21120227-de141027-pstar.ftb
 vendor/firmware/stmicro-visionox-fts3639-21072312-0009200c-pstar.ftb
 
