@@ -24,7 +24,7 @@ TARGET_KERNEL_CONFIG := vendor/lineageos_pstar_defconfig
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2022-06-01
+VENDOR_SECURITY_PATCH := 2023-09-01
 
 # Touch/Power
 SOONG_CONFIG_NAMESPACES += MOTO_KONA_TOUCH

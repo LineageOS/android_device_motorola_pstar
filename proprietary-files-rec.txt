@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from pstar S1RAS32.41-20-16-5
+# All unpinned blobs below are extracted from pstar T1RA33.55-15-16-5
 
 # Firmware
 vendor/firmware/stmicro-csot-fts3639-21120227-de141027-pstar.ftb:recovery/root/vendor/firmware/stmicro-csot-fts3639-21120227-de141027-pstar.ftb
