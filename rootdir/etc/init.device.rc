@@ -8,6 +8,3 @@ on boot
 # NFC
    chown nfc nfc /dev/st21nfc
    chmod 0660 /dev/st21nfc
-# Touchscreen
-   chown system system /sys/devices/platform/soc/a94000.i2c/i2c-2/2-0049/double_click
-   chown system system /sys/devices/platform/soc/a94000.i2c/i2c-2/2-0049/single_click
