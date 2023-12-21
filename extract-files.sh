@@ -11,6 +11,9 @@ function blob_fixup() {
         vendor/lib/libmot_chi_desktop_helper.so | vendor/lib64/libmot_chi_desktop_helper.so)
             grep -q "libgui_shim_vendor.so" "${2}" || "${PATCHELF}" --add-needed "libgui_shim_vendor.so" "${2}"
             ;;
+        *)
+            blob_fixup_common "$@"
+            ;;
     esac
 }
 
