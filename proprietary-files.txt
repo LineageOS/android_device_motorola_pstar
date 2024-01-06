@@ -182,11 +182,6 @@ vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@3.0.so
 
 # Firmware
-vendor/firmware/aw8695_haptic.bin
-vendor/firmware/aw8695_rtp.bin
-vendor/firmware/aw882xx_mono.bin
-vendor/firmware/aw882xx_rcv_reg.bin
-vendor/firmware/aw882xx_spk_reg.bin
 vendor/firmware/st21nfc_fw.bin
 vendor/firmware/st21nfc_fw7.bin
 vendor/firmware/stmicro-csot-fts3639-21120227-de141027-pstar.ftb
