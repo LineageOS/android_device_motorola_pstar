@@ -1,5 +1,0 @@
-# All unpinned blobs below are extracted from pstar T1RAA33.39-11-11
-
-# Firmware
-vendor/firmware/stmicro-csot-fts3639-21120227-de141027-pstar.ftb:recovery/root/vendor/firmware/stmicro-csot-fts3639-21120227-de141027-pstar.ftb
-vendor/firmware/stmicro-visionox-fts3639-21072312-0009200c-pstar.ftb:recovery/root/vendor/firmware/stmicro-visionox-fts3639-21072312-0009200c-pstar.ftb
