@@ -28,5 +28,6 @@ set -e
 export DEVICE=pstar
 export DEVICE_COMMON=sm8250-common
 export VENDOR=motorola
+export VENDOR_COMMON=${VENDOR}
 
-"./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+"./../../${VENDOR_COMMON}/${DEVICE_COMMON}/extract-files.sh" "$@"
