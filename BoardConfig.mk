@@ -32,7 +32,6 @@ VENDOR_SECURITY_PATCH := 2023-09-01
 SOONG_CONFIG_NAMESPACES += MOTO_KONA_TOUCH
 SOONG_CONFIG_MOTO_KONA_TOUCH := USE_TOUCH_POLLING_RATE
 SOONG_CONFIG_MOTO_KONA_TOUCH_USE_TOUCH_POLLING_RATE := true
-TARGET_TAP_TO_WAKE_NODE := "/sys/devices/platform/soc/a94000.i2c/i2c-2/2-0049/double_click"
 
 # Inherit from the proprietary version
 -include vendor/motorola/pstar/BoardConfigVendor.mk
