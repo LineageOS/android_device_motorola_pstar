@@ -1,5 +1,8 @@
 # All unpinned blobs below are extracted from pstar T1RAA33.39-11-11
 
+# Current blobs with ELF checks disabled:
+# libgf_ca depends on libqti-perfd-client, which is a gnu makefile target
+
 # ACDB
 vendor/etc/acdbdata/Bluetooth_cal.acdb
 vendor/etc/acdbdata/General_cal.acdb
@@ -176,7 +179,7 @@ vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc2.rc
 vendor/lib64/com.fingerprints.extension@1.0.so
 vendor/lib64/hw/fingerprint.goodix.default.so
-vendor/lib64/libgf_ca.so
+vendor/lib64/libgf_ca.so;DISABLE_CHECKELF
 vendor/lib64/libgf_hal.so
 vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@3.0.so
