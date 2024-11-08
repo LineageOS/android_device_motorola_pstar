@@ -16,6 +16,24 @@
       "message": "it\u0027s not?",
       "revId": "e837e3dd55fdfa5e7fbce5f6a0f81bd88cbe032b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed72e6c3_d48cbb52",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 19165
+      },
+      "writtenOn": "2024-11-08T12:08:17Z",
+      "side": 1,
+      "message": "I\u0027m not 100% sure what exactly happened, but it threw me the same error for libqti-perfd-client as for rild and some others. Did a clean build now without disabling checkelf for libgf_ca and it\u0027s fine now. I assume something on my side got messed up.\nThanks for informing me.",
+      "parentUuid": "c6a7d266_786c3b29",
+      "revId": "e837e3dd55fdfa5e7fbce5f6a0f81bd88cbe032b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
