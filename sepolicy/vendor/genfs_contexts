@@ -1,6 +1,5 @@
 # Power Supply
 genfscon sysfs /devices/platform/soc/soc:mmi_chrg_manager_qc3p/power_supply/mmi_chrg_manager_qc3p u:object_r:vendor_sysfs_battery_supply:s0
-genfscon sysfs /devices/platform/soc/soc:mmi_chrg_manager/power_supply/mmi_chrg_manager u:object_r:vendor_sysfs_battery_supply:s0
 genfscon sysfs /devices/platform/soc/888000.i2c/i2c-4/4-0065/power_supply/bq25960-standalone u:object_r:vendor_sysfs_battery_supply:s0
 
 # Touchscreen
