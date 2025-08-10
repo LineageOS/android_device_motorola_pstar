@@ -44,8 +44,5 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2-service.st \
     nfc_nci.st21nfc.default
 
-PRODUCT_COPY_FILES += \
-    hardware/st/secure_element/libese-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libese-hal-st.conf
-
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/pstar/pstar-vendor.mk)
