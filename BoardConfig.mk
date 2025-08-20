@@ -14,9 +14,6 @@ TARGET_BOOTLOADER_BOARD_NAME := pstar
 # Display
 TARGET_SCREEN_DENSITY := 400
 
-# HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/ext_config/pstar-default.config
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD += $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))
