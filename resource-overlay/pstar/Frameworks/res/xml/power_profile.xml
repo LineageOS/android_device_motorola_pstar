@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
-<<<<<<< HEAD:resource-overlay/pstar/Frameworks/res/xml/power_profile.xml
     <item name="screen.on.display0">100</item>
     <item name="screen.full.display0">450</item>
     <item name="wifi.on">1.2</item>
